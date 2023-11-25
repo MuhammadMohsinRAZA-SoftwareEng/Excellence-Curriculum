@@ -1,5 +1,3 @@
-/* src/assets/styles/custom.css */
-
 /* Navbar styles */
 .navbar {
     background-color: #ffffff;
@@ -40,6 +38,160 @@
     border-radius: 50px;
   }
   
+
+
+/* Courses Cards */
+
+.courses-categories {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.categories-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories-container button {
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.categories-container button:hover {
+  color: #fff;
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.categories-container i {
+  margin-right: 10px;
+}
+
+.categories-container .card {
+  margin: 10px;
+  width: 300px;
+}
+
+.categories-container .card-body {
+  padding: 0;
+}
+
+.categories-container ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.categories-container ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.categories-container ul li:hover {
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+
+/* Teachers Section */
+
+
+.slider-controls {
+  display: flex;
+  justify-content: center; /* Center align buttons horizontally */
+  align-items: center; /* Center align buttons vertically */
+  margin-top: 10px;
+}
+
+.slider-controls button {
+  background: none;
+  border: none;
+  font-size: 32px; /* Increase the font size of buttons */
+  color: #333;
+  cursor: pointer;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center align the cards container */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.teachers-section {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+  max-width: 100%; /* Make sure the cards don't exceed the viewport width */
+}
+
+.teacher-card {
+  width: 200px;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.teacher-card:hover {
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.8);
+  transform: scale(1.05);
+}
+
+.teacher-image {
+  width: 100%;
+  height: auto;
+}
+
+.teacher-info {
+  text-align: center;
+}
+
+.teacher-name {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .teachers-section {
+    flex-direction: column; /* Align cards vertically on smaller screens */
+    align-items: center; /* Center align cards horizontally */
+  }
+
+  .teacher-card {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* No maximum width for smaller screens */
+    margin-right: 0; /* Remove right margin for smaller screens */
+    margin-bottom: 20px; /* Add margin between cards for smaller screens */
+  }
+}
+
   /* Footer styles */
   footer {
     background-color: #f8f9fa;

@@ -4,8 +4,10 @@ import Slider from './components/home/Slider';
 import WhoWeAre from './components/home/WhoWeAre';
 import WhyExcellence from './components/home/WhyExcellence';
 import CoursesCategories from './components/home/CoursesCategories';
+import TeachersSection from './components/home/TeachersSection';
 import AppFooter from './components/common/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <WhoWeAre />
       <WhyExcellence />
       <CoursesCategories />
+      <TeachersSection/>
       <AppFooter />
     </div>
   );
