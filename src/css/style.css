@@ -1,0 +1,57 @@
+/* src/assets/styles/custom.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Slider styles */
+  .carousel-item {
+    height: 400px;
+  }
+  
+  /* WhoWeAre styles */
+  .container h1 {
+    color: #333;
+  }
+  
+  /* WhyExcellence styles */
+  .container h1,
+  .container p {
+    color: #333;
+  }
+  
+  /* CoursesCategories styles */
+  .container h1,
+  .container p {
+    color: #333;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  .footer-link {
+    color: #007bff;
+  }
+  
+  .footer-link:hover {
+    text-decoration: none;
+    color: #0056b3;
+  }
+  
